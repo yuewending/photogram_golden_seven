@@ -29,3 +29,4 @@
 /.env*
 
 whitelist.yml
+examples.txt
