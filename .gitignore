@@ -28,5 +28,4 @@
 # Ignore dotenv files
 /.env*
 
-whitelist.yml
 examples.txt
