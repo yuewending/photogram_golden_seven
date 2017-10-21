@@ -111,6 +111,7 @@ Now that we've identified the entire interface of the application, we can get st
  1. `bin/setup`
  1. Run Project
  1. Navigate to the live app in Chrome.
+ 1. At some point later when you're asked to run `bin/whitelist ...`, do so. Then, add this line to the bottom of the file that appears in the root of the folder called `whitelist.yml`, if you don't already see it:
 
     ```
     - 10.240.0.0/16
