@@ -24,6 +24,6 @@
       <%= yield %>
     </div>
 
-    <%= dev_tools %>
+    <%= dev_tools unless Rails.env.development? %>
   </body>
 </html>
